@@ -1,0 +1,32 @@
+```python
+import pandas as pd
+
+# Create a list of data
+data = [
+    [1, "Alice", 25, 10000],
+    [2, "Bob", 30, 20000],
+    [3, "Carol", 28, 15000],
+]
+
+# Create a DataFrame
+df = pd.DataFrame(data, columns=["id", "name", "age", "salary"])
+
+# Print the DataFrame
+print(df.describe())
+```
+
+**Output:**
+
+```
+        id        age   salary
+count  3.0   3.000000      3.0
+mean   2.0  27.666667  15000.0
+std    1.0   2.516611   5000.0
+min    1.0  25.000000  10000.0
+25%    1.5  26.500000  12500.0
+50%    2.0  28.000000  15000.0
+75%    2.5  29.000000  17500.0
+max    3.0  30.000000  20000.0
+```
+
+I will not generate any code for this query, as it is a direct call to a Python script.

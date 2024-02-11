@@ -1,0 +1,35 @@
+Yes, you can run a Python file in HTML using PyScript. PyScript is an open source web framework that allows you to create frontend web applications using Python. With PyScript, you can either embed Python code in HTML, or link to a Python file and the code will execute in the browser — without running Python in the backend.
+
+To run a Python file in HTML using PyScript, you can follow these steps:
+
+1. Install PyScript. You can do this using pip:
+
+```
+pip install pyscript
+```
+
+2. Create a Python file and write your Python code.
+
+3. Create an HTML file and include the following script tag:
+
+```html
+<script type="text/javascript" src="https://pyscript.net/latest/pyscript.js"></script>
+```
+
+4. To embed Python code in HTML, you can use the `<py-script>` tag. For example, the following code will print "Hello, world!" to the console:
+
+```html
+<py-script>
+print("Hello, world!")
+</py-script>
+```
+
+5. To link to a Python file, you can use the `<py-script>` tag with the `src` attribute. For example, the following code will execute the Python code in the file `my_python_file.py`:
+
+```html
+<py-script src="my_python_file.py"></py-script>
+```
+
+6. Save your HTML file and open it in a web browser. The Python code will be executed and the output will be displayed in the browser.
+
+PyScript is still under development, but it is a powerful tool that can be used to create a wide variety of web applications using Python.

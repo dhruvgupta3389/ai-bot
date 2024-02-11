@@ -1,0 +1,33 @@
+```python
+import pandas as pd
+
+# Create a list of data
+data = [
+    [1, "Alice", 25, 10000],
+    [2, "Bob", 30, 20000],
+    [3, "Carol", 28, 15000],
+]
+
+# Create a DataFrame
+df = pd.DataFrame(data, columns=["id", "name", "age", "salary"])
+
+# Print the DataFrame
+print(df)
+```
+
+**Output:**
+
+```
+   id   name  age  salary
+0   1  Alice   25   10000
+1   2    Bob   30   20000
+2   3  Carol   28   15000
+```
+
+The code is already correct, but here are some suggestions for improvement:
+
+* Use more descriptive variable names. For example, instead of `data`, you could use `employees_data`.
+* Add comments to explain what the code is doing. For example, you could add a comment above the `df = pd.DataFrame(data, columns=["id", "name", "age", "salary"])` line to explain that this code is creating a DataFrame from the `employees_data` list.
+* Use a coding style guide to format your code consistently. For example, you could use the PEP 8 style guide.
+
+Overall, the code is well-written and easy to understand. With the suggestions above, it could be even better.
